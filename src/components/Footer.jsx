@@ -1,6 +1,7 @@
+import css from '../css_modules/Footer.module.css';
 export default function Footer({}){
     return(
-        <footer className="footer">
+        <footer className={css.footer}>
       <div className="container">
         <h2>CONTACT US</h2>
         <ul className="form-list">
