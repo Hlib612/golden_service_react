@@ -1,32 +1,32 @@
-.header{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 109px;
+.header {
+  margin-bottom: 109px;
+  padding-top: 44px;
 }
-.header_nav{
-        display: flex;
-    gap: 290px;
+.header_nav {
+  display: flex;
+  justify-content: center;
+  gap: 290px;
 }
-.header_nav_list{
-    list-style: none;
-    display: flex;
-    gap: 10px;
+.header_nav_list {
+  list-style: none;
+  display: flex;
+  gap: 44px;
 }
-.header_nav_list_item{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-font-size: 14px;
-line-height: 293%;
-text-transform: uppercase;
-text-align: center;
-color: #fed136;
+.header_nav_list_item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 293%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fed136;
 }
-.logo{
-    font-family: "Bilbo Swash Caps", sans-serif;
-    font-weight: 400;
-font-size: 36px;
-line-height: 114%;
-letter-spacing: 0.04em;
-text-align: center;
-color: #fed136;
+.logo {
+  font-family: "Bilbo Swash Caps", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 114%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fed136;
 }

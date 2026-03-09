@@ -6,7 +6,7 @@ export default function Hero(){
     return(
       <main>
         <section className={css.section}>
-         <div className={css.container}>
+         <div className="container">
           <h1 className={css.title}>SERVICES</h1>
           <ul className={css.section_list}>
             <li className={css.section_list_item}>

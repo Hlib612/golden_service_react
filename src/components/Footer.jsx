@@ -3,39 +3,39 @@ export default function Footer({}){
     return(
         <footer className={css.footer}>
       <div className="container">
-        <h2>CONTACT US</h2>
-        <ul className="form-list">
+        <h2  className={css.footer_title}>CONTACT US</h2>
+        <ul className={css.form_list}>
          <li>
-          <form className="sign_up-form">
-            <div className="first-wrapper">
-              <label className="form-element">
-                <input type="text" name="name" placeholder="YOUR NAME*" className="placeholder-name"/>
+          <form className={css.sign_up_form}>
+            <div className={css.first_wrapper}>
+              <label className={css.form_element}>
+                <input type="text" name="name" placeholder="YOUR NAME*" className={css.placeholder_name}/>
               </label>
-              <label className="form-element">
-                <input type="email" name="email" placeholder="YOUR E-MAIL*" className="placeholder-email"/>
+              <label className={css.form_element}>
+                <input type="email" name="email" placeholder="YOUR E-MAIL*" className={css.placeholder_email}/>
               </label>
-              <label className="form-element">
-                <input type="text" name="subject" placeholder="SUBJECT" className="placeholder-subject"/>
+              <label className={css.form_element}>
+                <input type="text" name="subject" placeholder="SUBJECT" className={css.placeholder_subject}/>
               </label>
             </div>
           </form>
          </li>
           <li>
-            <form className="feedback">
-              <div className="second-wrapper">
-                <label className="">
+            <form className={css.feedback}>
+              <div className={css.second_wrapper}>
+                <label>
                   <textarea
                     name="feedback"
                     rows="5"
                     placeholder="YOUR MESSAGE*"
-                    className="text-area"
+                    className={css.text_area}
                     ></textarea>
                 </label>
               </div>
             </form>
           </li>
         </ul>
-        <button type="submit" className="button">SEND MESSAGE</button>
+        <button type="submit" className={css.button}>SEND MESSAGE</button>
       </div>
     </footer>
     )

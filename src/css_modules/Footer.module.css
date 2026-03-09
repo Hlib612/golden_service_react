@@ -1,3 +1,83 @@
-.footer{
-    background-color: black;
+.footer {
+  padding-top: 92px;
+  background-color: #222;
+  padding-bottom: 115px;
+}
+.footer_title {
+  margin-bottom: 114px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.form_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+.first_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.placeholder_name {
+  background-color: white;
+  width: 455px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #bbb;
+  border: none;
+  border-radius: 5px;
+}
+.placeholder_email {
+  /* composes: placeholder_name; */
+  background-color: white;
+  width: 455px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #bbb;
+  border: none;
+  border-radius: 5px;
+}
+.placeholder_subject {
+  /* composes: placeholder_name; */
+  background-color: white;
+  width: 455px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #efeeee;
+  border: none;
+  border-radius: 5px;
+}
+::placeholder {
+  padding-left: 20px;
+}
+.text_area {
+  width: 458px;
+  height: 212px;
+  background-color: white;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #efeeee;
+  border: none;
+  border-radius: 5px;
+}
+.button {
+  width: 242px;
+  height: 68px;
+  background-color: #FED136;
 }

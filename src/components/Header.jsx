@@ -2,7 +2,7 @@ import css from '../css_modules/Header.module.css';
 export default function Header({}){
     return(
          <header className={css.header}>
-      <div className={css.container}>
+          <div className='container'>
         <nav className={css.header_nav}>
           <a href="#" className={css.logo}>Golden</a>
           <ul className={css.header_nav_list}>
@@ -23,7 +23,7 @@ export default function Header({}){
             </li>
           </ul>
         </nav>
-      </div>
+        </div>
     </header>
     )
 }
